@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-07T22:18:12 IST" name="Default suite" finished-at="2024-09-07T22:18:19 IST" duration-ms="7046">
+  <suite started-at="2024-09-08T16:36:39 IST" name="Default suite" finished-at="2024-09-08T16:36:47 IST" duration-ms="8059">
     <groups>
     </groups>
-    <test started-at="2024-09-07T22:18:12 IST" name="Default test" finished-at="2024-09-07T22:18:19 IST" duration-ms="7046">
-      <class name="DynamicJson">
-        <test-method signature="addBook()[pri:0, instance:DynamicJson@f78a47e]" started-at="2024-09-07T22:18:12 IST" name="addBook" finished-at="2024-09-07T22:18:19 IST" duration-ms="6851" status="PASS">
+    <test started-at="2024-09-08T16:36:39 IST" name="Default test" finished-at="2024-09-08T16:36:47 IST" duration-ms="8059">
+      <class name="SendingParametersToPayloadfromTest">
+        <test-method signature="addBook()[pri:0, instance:SendingParametersToPayloadfromTest@f78a47e]" started-at="2024-09-08T16:36:39 IST" name="addBook" finished-at="2024-09-08T16:36:47 IST" duration-ms="7828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-      </class> <!-- DynamicJson -->
+      </class> <!-- SendingParametersToPayloadfromTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

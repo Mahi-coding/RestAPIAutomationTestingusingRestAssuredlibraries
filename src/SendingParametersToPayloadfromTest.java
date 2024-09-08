@@ -8,7 +8,7 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 
 
-public class DynamicJson {
+public class SendingParametersToPayloadfromTest {
 
 	
 	@Test
@@ -20,8 +20,8 @@ public class DynamicJson {
 		// Add book
 		RestAssured.baseURI = "http://216.10.245.166";
 		String response =  given().log().all().header("Content-type","application/json").
-		body(payload.Addbook()).when().post("Library/Addbook.php")
-		.then().assertThat().statusCode(200).extract().response().asString();
+		body(payload.Addbook("ABCD","9104645")).when().post("Library/Addbook.php")
+		.then().log().all().assertThat().statusCode(200).extract().response().asString();
 		
 		JsonPath js = ReUsableMethods.rawToJson(response);
 		
