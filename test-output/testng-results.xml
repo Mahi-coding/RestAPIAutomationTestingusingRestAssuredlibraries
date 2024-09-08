@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T16:36:39 IST" name="Default suite" finished-at="2024-09-08T16:36:47 IST" duration-ms="8059">
+  <suite started-at="2024-09-08T19:16:47 IST" name="Default suite" finished-at="2024-09-08T19:16:55 IST" duration-ms="7832">
     <groups>
     </groups>
-    <test started-at="2024-09-08T16:36:39 IST" name="Default test" finished-at="2024-09-08T16:36:47 IST" duration-ms="8059">
-      <class name="SendingParametersToPayloadfromTest">
-        <test-method signature="addBook()[pri:0, instance:SendingParametersToPayloadfromTest@f78a47e]" started-at="2024-09-08T16:36:39 IST" name="addBook" finished-at="2024-09-08T16:36:47 IST" duration-ms="7828" status="PASS">
+    <test started-at="2024-09-08T19:16:47 IST" name="Default test" finished-at="2024-09-08T19:16:55 IST" duration-ms="7832">
+      <class name="TestNgDataProviderforParameterization">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@74ea2410]" started-at="2024-09-08T19:16:48 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T19:16:55 IST" duration-ms="7043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EFGH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0980]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-      </class> <!-- SendingParametersToPayloadfromTest -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@74ea2410]" started-at="2024-09-08T19:16:55 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T19:16:55 IST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IJKl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@74ea2410]" started-at="2024-09-08T19:16:55 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T19:16:55 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QRst]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2980]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- TestNgDataProviderforParameterization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

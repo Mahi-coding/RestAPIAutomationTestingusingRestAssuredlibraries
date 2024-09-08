@@ -115,4 +115,17 @@ public class payload {
 		return payload;
 
 	}
+	
+	public static String DeleteBook(String id)
+	{
+		
+		String payload = "{\r\n"
+				+ " \r\n"
+				+ "\"ID\" : \""+id+"\"\r\n"
+				+ " \r\n"
+				+ "} \r\n"
+				+ "";
+		return payload;
+
+	}
 }

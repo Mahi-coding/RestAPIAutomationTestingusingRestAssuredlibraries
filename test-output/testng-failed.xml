@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DynamicJson">
+      <class name="DeleteBooks_TestNgDataProviderforParameterization">
         <methods>
-          <include name="addBook"/>
+          <include name="addBook" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- DynamicJson -->
+      </class> <!-- DeleteBooks_TestNgDataProviderforParameterization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

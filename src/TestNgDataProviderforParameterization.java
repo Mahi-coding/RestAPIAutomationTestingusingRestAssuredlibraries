@@ -1,3 +1,4 @@
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import files.ReUsableMethods;
@@ -8,30 +9,43 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 
 
-public class SendingParametersToPayloadfromTest {
+public class TestNgDataProviderforParameterization {
 
 	
-	@Test
+	@Test(dataProvider = "BooksData")
 	
-	public void addBook()
+	public  void addBook(String isbn,String aisle)
 	
 	
 	{
 		// Add book
 		RestAssured.baseURI = "http://216.10.245.166";
 		String response =  given().log().all().header("Content-type","application/json").
-		body(payload.Addbook("XYZ","122")).when().post("Library/Addbook.php")
+		body(payload.Addbook(isbn,aisle)).when().post("Library/Addbook.php")
 		.then().log().all().assertThat().statusCode(200).extract().response().asString();
 		
 		JsonPath js = ReUsableMethods.rawToJson(response);
 		
 		String id = js.get("ID");
 	
-		System.out.println(id); 
+		System.out.println(id);
+		
+		
 		
 	
 	}
 	
+	
+	@DataProvider(name = "BooksData")
+	
+	public Object[][] getData()
+	
+	{
+		//array = collection of elements
+		//multidimensional array = collection of arrays
+		return new Object[][] {{"EFGH","0980"},{"IJKl","1980"},{"QRst","2980"}};
+		
+	}
 	
 	
 	
