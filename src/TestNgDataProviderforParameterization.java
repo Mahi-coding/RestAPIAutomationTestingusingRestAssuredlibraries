@@ -14,7 +14,7 @@ public class TestNgDataProviderforParameterization {
 	
 	@Test(dataProvider = "BooksData")
 	
-	public  void addBook(String isbn,String aisle)
+	public  void addBook(String isbn,String aisle) 
 	
 	
 	{
