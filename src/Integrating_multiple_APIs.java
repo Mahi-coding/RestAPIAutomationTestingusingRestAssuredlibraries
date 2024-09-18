@@ -20,7 +20,7 @@ public class Integrating_multiple_APIs {
 				//given -all input details,
 				//when - Submit the API, -resource,http method
 				//then - Validate the response
-				
+				//add place
 				RestAssured.baseURI= "https://rahulshettyacademy.com";
 				String response = given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json")
 				.body(payload.AddPlace()).when().post("maps/api/place/add/json")
