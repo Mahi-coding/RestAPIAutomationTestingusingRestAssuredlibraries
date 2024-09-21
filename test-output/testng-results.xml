@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T23:41:48 IST" name="Default suite" finished-at="2024-09-08T23:41:58 IST" duration-ms="10266">
+  <suite started-at="2024-09-20T21:29:45 IST" name="Default suite" finished-at="2024-09-20T21:29:54 IST" duration-ms="9154">
     <groups>
     </groups>
-    <test started-at="2024-09-08T23:41:48 IST" name="Default test" finished-at="2024-09-08T23:41:58 IST" duration-ms="10266">
-      <class name="TestNgDataProviderforParameterization">
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@17f62e33]" started-at="2024-09-08T23:41:48 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T23:41:58 IST" duration-ms="9369" status="PASS">
+    <test started-at="2024-09-20T21:29:45 IST" name="Default test" finished-at="2024-09-20T21:29:54 IST" duration-ms="9154">
+      <class name="DeleteBooks_TestNgDataProviderforParameterization">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DeleteBooks_TestNgDataProviderforParameterization@6fa51cd4]" started-at="2024-09-20T21:29:45 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-20T21:29:53 IST" duration-ms="7973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@17f62e33]" started-at="2024-09-08T23:41:58 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T23:41:58 IST" duration-ms="373" status="PASS">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DeleteBooks_TestNgDataProviderforParameterization@6fa51cd4]" started-at="2024-09-20T21:29:53 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-20T21:29:54 IST" duration-ms="528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:TestNgDataProviderforParameterization@17f62e33]" started-at="2024-09-08T23:41:58 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-08T23:41:58 IST" duration-ms="223" status="PASS">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DeleteBooks_TestNgDataProviderforParameterization@6fa51cd4]" started-at="2024-09-20T21:29:54 IST" name="addBook" data-provider="BooksData" finished-at="2024-09-20T21:29:54 IST" duration-ms="449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-      </class> <!-- TestNgDataProviderforParameterization -->
+      </class> <!-- DeleteBooks_TestNgDataProviderforParameterization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
